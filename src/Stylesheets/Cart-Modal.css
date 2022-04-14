@@ -1,0 +1,74 @@
+
+.cart-modal .Modal-wrapper {
+    background: white;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    padding: 85px 40px 40px;
+}
+.all-item .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.cart-modal .Price  h5 {
+    margin-top: 5px;
+}
+.cart-modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    display: flex;
+    margin: auto;
+    width: 100%;
+ }
+.cart-modal button {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    transform: rotate(4deg);
+    cursor: pointer;
+}
+.cart-modal button  span {
+    height: 30px;
+    display: inline-block;
+    width: 3px;
+    background-color: #000;
+    border-radius: 100%;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 40%), 0px 1px 1px 0px rgb(0 0 0 / 20%), 0px 1px 3px 0px rgb(0 0 0 / 20%) ;
+}
+.cart-modal button  span:first-child {
+    transform: rotate(45deg);
+}
+.cart-modal button  span:last-child {
+    transform: rotate(-54deg);
+}
+.cart-modal .Modal-wrapper {
+    display: flex;
+    overflow-y: auto;
+    border-radius: 12px;
+}
+.all-item .card-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.cart-modal .card-wrapper {
+    border-top: 2px solid #c5bfbf;
+    padding-top: 30px;
+}
+.cart-modal .card-wrapper:first-child {
+    border-top: 0;
+}
+
+.all-item .card-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

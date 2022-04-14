@@ -1,0 +1,33 @@
+.Nav-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Right-Nav {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    cursor: pointer;
+}
+.ItemCount {
+    position: absolute;
+    background: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    right: -14px;
+    bottom: -6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ItemCount p {
+    font-size: 14px;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
